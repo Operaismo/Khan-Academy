@@ -5,16 +5,16 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
@@ -22,24 +22,35 @@
 /*******************************************/
 
 body {
-
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+/* HEADER */
 header {
-  color: blue;
+  color: #005987;
   font-weight: bold;
+  font-family: 'Lato', 'Noto Sans', 'Helvetica', 'Corbel', sans-serif,
+    'Helvetica', 'Corbel', sans-serif;
 }
 
-a:link, a:visited, a:hover, a:active {
+nav img {
+  background-size: 100% 100%;
+  object-fit: contain;
+  width: 176px;
+  height: 28px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
   text-decoration: none;
 }
 
 footer {
-
 }
 
 /******************************************
