@@ -71,32 +71,41 @@ a:active {
 }
 
 /* MAIN CONTENT */
+div {
+  font-weight: 600;
+  margin-top: 5em;
+}
 section {
   display: block;
 }
 section > img {
   
   height: 100%;
-  width: 75%;
   max-width: 538px;
   max-height: 520px;
 }
 
 .ka-image {
-  float: left;
-  width: 50%;
-  margin: auto 0;
+  float: right;
+  width: 100%;
+  margin: 0 0 0 20em;
 }
 
 .main-content {
-  width: 75%;
-  margin: 10em 0 0 30em;
-  /* float: left; */
+  width: 50%;
+  margin: 0 auto;
+  float: left;
 }
 
 .real-results {
   align-content: stretch;
+  height: 100%;
   margin: auto 0;
+}
+
+h1 {
+  font-size: 3em;
+  -webkit-font-smoothing: antialiased;
 }
 
 button {
@@ -105,15 +114,20 @@ button {
   font-weight: bold;
   border-radius: 5px;
   border: none;
+  padding: .5em .5em .5em .5em;
+  margin: .5em .5em .5em .5em;
+}
+
+.customers {
+  transition: box-shadow .3s;
+}
+
+.customers:hover {
+  box-shadow: 0 0 0 1px #ffffff, 0 0 0 3px #1865f2;
 }
 
 .split-content {
   display: none;
-}
-
-/* MAIN CONTENT SECTION 2 */
-.it-works {
-  float: left;
 }
 
 /* FOOTER */
