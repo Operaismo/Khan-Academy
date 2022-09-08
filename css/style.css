@@ -106,6 +106,7 @@ section > img {
 h1 {
   font-size: 3em;
   -webkit-font-smoothing: antialiased;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
 }
 
 button {
