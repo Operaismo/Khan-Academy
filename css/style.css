@@ -37,6 +37,19 @@ header, ::placeholder {
   width:100%;
 }
 
+.courses-text {
+  padding-bottom: 25em;
+  width: 75%;
+}
+
+.course-options {
+  float: left;
+}
+
+/* .courses-down-arrow {
+  width: 25%;
+} */
+
 .user-input {
   float: left;
   width: 10%;
@@ -47,7 +60,7 @@ nav {
   height: 100%;
 }
 
-nav img {
+.logo {
   background-size: 100% 100%;
   object-fit: contain;
   width: 176px;
