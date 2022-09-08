@@ -34,6 +34,12 @@ body {
 header, ::placeholder {
   color: #005987;
   font-weight: bold;
+  width:100%;
+}
+
+.user-input {
+  float: left;
+  width: 10%;
 }
 
 nav {
@@ -46,7 +52,15 @@ nav img {
   object-fit: contain;
   width: 176px;
   height: 28px;
-  align-items: center;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 25%;
+}
+
+a {
+  float: right;
+  width: 5%;
 }
 
 a:link,
@@ -55,6 +69,54 @@ a:hover,
 a:active {
   text-decoration: none;
 }
+
+/* MAIN CONTENT */
+section {
+  display: block;
+}
+section > img {
+  
+  height: 100%;
+  width: 75%;
+  max-width: 538px;
+  max-height: 520px;
+}
+
+.ka-image {
+  float: left;
+  width: 50%;
+  margin: auto 0;
+}
+
+.main-content {
+  width: 75%;
+  margin: 10em 0 0 30em;
+  /* float: left; */
+}
+
+.real-results {
+  align-content: stretch;
+  margin: auto 0;
+}
+
+button {
+  background-color: #1865f2;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+
+.split-content {
+  display: none;
+}
+
+/* MAIN CONTENT SECTION 2 */
+.it-works {
+  float: left;
+}
+
+/* FOOTER */
 
 footer {
   background-color: navy;
